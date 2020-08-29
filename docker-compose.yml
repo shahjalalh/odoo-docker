@@ -10,6 +10,7 @@ services:
       - odoo-web-data:/var/lib/odoo
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
+      # - ./odoo/addons:/usr/lib/python3/dist-packages/odoo/addons
     networks: 
       - odoonet
   

@@ -2,7 +2,7 @@
 
 Clone specific odoo version
 ```
-$ git clone https://github.com/odoo/odoo.git -b 11.0 --depth 1
+$ git clone https://github.com/odoo/odoo.git -b 13.0 --depth 1
 ```
 
 To connect with PgAdmin4
@@ -37,4 +37,9 @@ web_1  | 2020-08-27 05:23:34,522 1 INFO ? odoo: addons paths: ['/var/lib/odoo/.l
 web_1  | 2020-08-27 05:23:34,523 1 INFO ? odoo: database: odoo@db:5432
 web_1  | 2020-08-27 05:23:34,814 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on a087322baa2b:8069
 web_1  | 2020-08-27 05:23:35,871 1 INFO ? odoo.addons.base.ir.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+```
+
+Enter into container
+```
+$ docker exec -it container_id bash
 ```
