@@ -1,4 +1,4 @@
-# Odoo 11 Docker
+# Odoo 13 Docker
 
 Clone specific odoo version
 ```
