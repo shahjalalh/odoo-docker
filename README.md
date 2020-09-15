@@ -10,6 +10,14 @@ To connect with PgAdmin4
 $ docker inspect ee9183bfc06e
 ```
 
+File mode change push
+
+then with ```vim .git/config```, set ```filemode``` option to ```false```
+```
+[core]
+        filemode = false
+```
+
 Change permission
 ```
 $ chown -R $(whoami) addons/
